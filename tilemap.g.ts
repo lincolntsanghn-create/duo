@@ -23,7 +23,7 @@ namespace myTiles {
 2 . . . . . . 2 . . . . . . . 2 
 2 . . . . . . 2 . . . . . . . 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,sprites.builtin.brick], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.greenOuterNorth2], TileScale.Sixteen);
         }
         return null;
     })
