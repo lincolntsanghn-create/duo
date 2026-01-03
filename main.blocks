@@ -1,18 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="!}Z,l*0-)2i%,)`h%yd3">mySprite</variable><variable type="KIND_SpriteKind" id="2Qv=@i3(kGFaR!KN07w_">Player</variable><variable type="KIND_SpriteKind" id="D|^@RlRuPj[4dhezV]E_">Projectile</variable><variable type="KIND_SpriteKind" id="apX]/A.$x5i{egp?2$2j">Food</variable><variable type="KIND_SpriteKind" id=":-pdh|Xu[%,%[ZULxZ(m">Enemy</variable></variables><block type="pxt-on-start" id="xRRgvHNlG#rZ^u`HECiY" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="_ed:CAGBoho4W,$)W!_:"><field name="VAR" id="!}Z,l*0-)2i%,)`h%yd3">mySprite</field><value name="VALUE"><shadow type="math_number" id="Hr|*$d5%lkt$PyH)WW(7"><field name="NUM">0</field></shadow><block type="spritescreate" id="sYn[{iSMt%$sF1[wHt42"><value name="img"><shadow type="screen_image_picker" id="O4{B9@87IyuVWS#zb_3t"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="k?RxJ.-vxAg{AT2WRVS8">mySprite</variable><variable type="KIND_SpriteKind" id="DSSm|^WO]9%K2;z]v=YS">Player</variable><variable type="KIND_SpriteKind" id="4SnTHXNL^*8Y=K@jR^xr">Projectile</variable><variable type="KIND_SpriteKind" id="K,?4M1V$Z8HtZ3fUrh4y">Food</variable><variable type="KIND_SpriteKind" id="3mF@5_n)~wY?]H-*R~xM">Enemy</variable></variables><block type="pxt-on-start" id="xRRgvHNlG#rZ^u`HECiY" x="37" y="53"><statement name="HANDLER"><block type="variables_set" id="*H7klYY=At|S05fh)V2R"><field name="VAR" id="k?RxJ.-vxAg{AT2WRVS8">mySprite</field><value name="VALUE"><shadow type="math_number" id="jxz#TVZrVi#ib3aEMqOE"><field name="NUM">0</field></shadow><block type="spritescreate" id="I|I,|YlkZhKoGXo0dD56"><value name="img"><shadow type="screen_image_picker" id="(BL-`wK6fZk?`mOT^*M`"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . 3 . . . . . . 
 . . . . . . 3 3 3 . . . . . . . 
 . . . . . 3 . . . . . . . . . . 
 . . . . . 3 . 3 . . . . . . . . 
 . . . . . . 3 . . . . . . . . . 
-. . . . . f f f . . . . . . f . 
-. . . . f f . 3 f 3 3 . f f f . 
-. . . f . . . . f f f f . . f . 
-. . f f f . . f f f . . . . f . 
-f f . . f . f . . f . . . . f . 
-f . . . f . . . . f . . . f . . 
-f . . . . f . . f . . . f . . . 
-. f . . . . f f f . . . f . . . 
-. . f f f f f f . . f f . . . . 
-. . . . . . . . f f . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="L:Xtt#9b0NjPi2Pol#fz"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_setgameovermessage" id="d|$y?hlj^dF.8[.jojhu"><value name="message"><shadow type="text" id="zA6AO)}gr_%Ia]19!0{q"><field name="TEXT">Hello</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="mYo:jPCX}jTTL#r@Pj}H"><field name="win">true</field></shadow></value></block></next></block></statement></block><block type="ctrlonbuttonevent" id="VtiNC}u#t,J9E:QLI)-R" x="603" y="5"><field name="controller">controller.player2</field><field name="button">ControllerButton.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
+. . . . . . 3 . . . . . . . . . 
+. . . . . . . 3 3 3 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="elY+$04^(czY@.`v0PHj"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_setgameovermessage" id="w};65OS_BNbHlA~i|x6("><value name="message"><shadow type="text" id="FNAWAnXkVa1gRz+qXbWx"><field name="TEXT">Hello</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="KISUDCTp!fNfOmoyX|!V"><field name="win">true</field></shadow></value></block></next></block></statement></block><block type="game_control_sprite" id="P9gee8(4`1$myjF:.00!" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="146" y="320"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="ptd_-EoK,b1-2U1QJ5zZ" disabled-reasons="MANUALLY_DISABLED"><field name="VAR" id="k?RxJ.-vxAg{AT2WRVS8">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="NCfH.n=3nYy;{HyYCbSI" disabled-reasons="MANUALLY_DISABLED"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="RZygUk/gf#ErP$D2BQ_D" disabled-reasons="MANUALLY_DISABLED"><field name="speed">100</field></shadow></value></block><block type="ctrlonbuttonevent" id="+t@[#18Myl6jnaEZy{mu" x="19" y="375"><field name="controller">controller.player2</field><field name="button">ControllerButton.A</field><field name="event">ControllerButtonEvent.Pressed</field></block><block type="keyonevent" id="1X$U=.xV}UdwflY{Xd41" x="20" y="408"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block><block type="ctrlonbuttonevent" id="$|v(q3k*fs6~26)Asx7u" disabled-reasons="MANUALLY_DISABLED" x="236" y="587"><field name="controller">controller.player2</field><field name="button">ControllerButton.A</field><field name="event">ControllerButtonEvent.Pressed</field></block><block type="keyonevent" id="rzfwRDIS0_}TiU;szEG6" disabled-reasons="MANUALLY_DISABLED" x="9" y="673"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
