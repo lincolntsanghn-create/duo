@@ -1,6 +1,9 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 	
 })
+controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
+	
+})
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . 3 . . . . . . 

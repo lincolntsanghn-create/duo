@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="rLaC4xBOk+b)r]L~WoPh">mySprite</variable><variable type="KIND_SpriteKind" id="R}cA5D.m2T^(*GT|fGlR">Player</variable><variable type="KIND_SpriteKind" id="eadICan3I5byeE0Q${`_">Projectile</variable><variable type="KIND_SpriteKind" id="bR.$(?Su@si7aH0IOr~(">Food</variable><variable type="KIND_SpriteKind" id="KNZ9~E!Tw]XY$OdvAtx`">Enemy</variable></variables><block type="pxt-on-start" id="xRRgvHNlG#rZ^u`HECiY" x="20" y="20"><statement name="HANDLER"><block type="variables_set" id="*H7klYY=At|S05fh)V2R"><field name="VAR" id="rLaC4xBOk+b)r]L~WoPh">mySprite</field><value name="VALUE"><shadow type="math_number" id="J$#^nXg,Dm0e#~)a3_2S"><field name="NUM">0</field></shadow><block type="spritescreate" id="h2#Y(gp3D9x_yK7j$r|;"><value name="img"><shadow type="screen_image_picker" id="i=6XQLo2VahFv*U%fDf~"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . 3 . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . 3 . . . . . . . . . . 
+. . . . . 3 . 3 . . . . . . . . 
+. . . . . . 3 . . . . . . . . . 
+. . . . . . 3 . . . . . . . . . 
+. . . . . . . 3 3 3 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="C6xDkJJZB(4+Ci~C(Q1F"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_setgameovermessage" id="w};65OS_BNbHlA~i|x6("><value name="message"><shadow type="text" id="%w1IK.+VJ.`$-?I+3H^j"><field name="TEXT">Hello</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="4m{FH+$Y1L_W_*uTbK!k"><field name="win">true</field></shadow></value></block></next></block></statement></block><block type="ctrlonbuttonevent" id="+t@[#18Myl6jnaEZy{mu" x="20" y="259"><field name="controller">controller.player2</field><field name="button">ControllerButton.A</field><field name="event">ControllerButtonEvent.Pressed</field></block><block type="keyonevent" id="1X$U=.xV}UdwflY{Xd41" x="20" y="408"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
