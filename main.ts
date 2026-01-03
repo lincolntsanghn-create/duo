@@ -19,5 +19,5 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite)
 game.setGameOverMessage(true, "Hello")
 game.onUpdate(function () {
-	
+    mySprite.startEffect(effects.spray)
 })
