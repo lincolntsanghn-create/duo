@@ -1,3 +1,9 @@
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+	
+})
+controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
+	
+})
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . 3 . . . . . . 
@@ -16,3 +22,4 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+game.setGameOverMessage(true, "Hello")
